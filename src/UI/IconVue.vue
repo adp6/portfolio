@@ -19,23 +19,6 @@
     div{
         display: inline-block;
     }
-    :deep(.popper) {
-        background: rgb(199, 155, 78);
-        padding: 20px;
-        border-radius: 20px;
-        color: black;
-        font-weight: bold;
-    }
-
-    :deep(.popper #arrow::before) {
-        background: #e92791;
-    }
-
-    :deep(.popper:hover),
-    :deep(.popper:hover > #arrow::before) {
-        background: #4d7bc4;
-        color: rgb(209, 209, 209);
-    }
    
 </style>
 

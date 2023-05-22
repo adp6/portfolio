@@ -60,19 +60,7 @@
         color: #4d7bc4;
     }
 
-    :deep(.popper) {
-        background: #4d7bc4;
-        padding: 20px;
-        border-radius: 20px;
-        color: #fff;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-
-    :deep(.popper:hover),
-    :deep(.popper:hover > #arrow::before) {
-        background: #060606;
-    }
+   
 
 
     @media screen and (max-width:900px) {

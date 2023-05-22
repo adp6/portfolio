@@ -69,6 +69,13 @@
         background-color: rgb(199, 155, 78);
         color: black;
     }
+
+    @media screen and (max-width:900px) {
+        ul{
+            display: grid;
+            grid-template-columns: auto;
+        }
+    }
 </style>
 
 <script>
