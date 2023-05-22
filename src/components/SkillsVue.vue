@@ -31,6 +31,7 @@
     p{
         font-size: 2em;
         font-weight: 600;
+        margin-bottom: 50px;
     }
     .row div:nth-child(1){
         width: 50%;
@@ -48,8 +49,8 @@
             flex-wrap: wrap;
         }
         .row div:nth-child(2){
-            display: flex;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: auto auto;
         }
         .row div:nth-child(1){
         width: 100%;

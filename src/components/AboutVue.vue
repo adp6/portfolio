@@ -63,7 +63,7 @@
    
 
 
-    @media screen and (max-width:900px) {
+    @media screen and (max-width:1300px) {
         .row{
             grid-template-columns: auto;
             gap: 5%;
