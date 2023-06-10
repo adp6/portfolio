@@ -17,6 +17,7 @@
             <IconVue :icon="icons.sass" name="sass" width="100px"/>
             <IconVue :icon="icons.vue" name="Vue 3" width="100px"/>
             <IconVue :icon="icons.react" name="ReactJS" width="100px"/>
+            <IconVue :icon="icons.ts" name="TypeScript" width="100px"/>
         </div>
         
     </div>
@@ -71,6 +72,7 @@ import github from '../assets/github.svg'
 import sass from '../assets/sass.svg'
 import vue from '../assets/vue.svg'
 import react from '../assets/react.svg'
+import ts from '../assets/ts.svg'
 
 export default {
     name:'SkillsVue',
@@ -89,7 +91,8 @@ export default {
                 github:github,
                 sass:sass,
                 vue:vue,
-                react:react
+                react:react,
+                ts:ts
             }
         }
     }
